@@ -9,6 +9,7 @@ export default function Header() {
         <Link href="/" className="hover:opacity-80">
           <Image src="/logo.png" alt="Logo" width={80} height={80} />
         </Link>
+
         <Nav />
       </div>
     </header>
