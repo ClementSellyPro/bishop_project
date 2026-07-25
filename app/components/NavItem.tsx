@@ -9,19 +9,12 @@ export default function NavItem({
   label: string;
 }) {
   return (
-    <li className="group space-x-2 w-24">
+    <li className="space-x-2">
       <Link
         href={href}
-        className="flex flex-col items-center group-hover:font-semibold"
+        className="flex flex-col items-center text-2xl px-6 hover:scale-110 transition-all duration-150 ease-in-out"
       >
         {label}
-        <Image
-          className="hidden group-hover:block transition-all duration-300 ease-in-out"
-          src="/triangle.svg"
-          alt="Logo"
-          width={14}
-          height={14}
-        />
       </Link>
     </li>
   );
