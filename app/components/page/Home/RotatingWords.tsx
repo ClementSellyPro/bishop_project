@@ -25,9 +25,8 @@ export default function RotatingWords({
   words = DEFAULT_WORDS,
   visibleCount = 5,
   itemHeight = 48,
-  intervalMs = 3000,
+  intervalMs = 2500,
   transitionMs = 600,
-  className = "",
 }: RotatingWordsProps) {
   const [index, setIndex] = useState(words.length);
   const [withTransition, setWithTransition] = useState(true);
@@ -58,7 +57,7 @@ export default function RotatingWords({
 
   return (
     <div
-      className={`relative overflow-hidden select-none ${className}`}
+      className={`relative overflow-hidden select-none`}
       style={{
         height: containerHeight,
         WebkitMaskImage:
@@ -80,7 +79,9 @@ export default function RotatingWords({
         {loopedWords.map((word, i) => (
           <div
             key={i}
-            className="text-4xl tracking-[2px] text-neutral-900 dark:text-neutral-100"
+            className={`text-4xl tracking-[2px] text-white transition-all 
+              ${i === index ? "text-5xl" : null}
+              `}
             style={{ height: itemHeight }}
           >
             {word}
