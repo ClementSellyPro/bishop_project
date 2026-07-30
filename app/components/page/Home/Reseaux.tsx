@@ -27,7 +27,7 @@ export default function Reseaux() {
           alt="Réseaux"
           width={750}
           height={750}
-          className="absolute -left-70 top-5"
+          className="absolute -left-60 top-5"
         />
       </div>
     </Container>
