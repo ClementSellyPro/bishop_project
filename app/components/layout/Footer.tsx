@@ -14,8 +14,20 @@ export default function Footer() {
           }}
         >
           <div className="flex gap-10 items-center mb-4">
-            <Image src="/ffe.jpg" alt="Logo FFE" width={150} height={150} />
-            <Image src="/lrje.png" alt="Logo LRJE" width={150} height={150} />
+            <Image
+              src="/ffe.jpg"
+              alt="Logo FFE"
+              className="rounded-md"
+              width={150}
+              height={150}
+            />
+            <Image
+              src="/lrje.png"
+              alt="Logo LRJE"
+              className="rounded-md"
+              width={150}
+              height={150}
+            />
           </div>
           <p>
             &copy; {new Date().getFullYear()} Les fous de Sin-Dni. Tous droits

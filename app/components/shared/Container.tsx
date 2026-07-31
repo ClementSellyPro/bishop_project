@@ -14,10 +14,10 @@ const variants = {
 };
 
 export default function Container({
-  theme,
+  theme = "light",
   children,
 }: {
-  theme: "light" | "dark";
+  theme?: "light" | "dark";
   children?: React.ReactNode;
 }) {
   const variant = variants[theme];

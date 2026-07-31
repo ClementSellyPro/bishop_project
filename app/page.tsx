@@ -1,7 +1,7 @@
-import Hero from "./components/page/Home/Hero";
-import Presentation from "./components/page/Home/Presentation";
-import Reseaux from "./components/page/Home/Reseaux";
-import Contact from "./components/page/Home/Contact";
+import Hero from "./components/home/Hero";
+import Presentation from "./components/home/Presentation";
+import Reseaux from "./components/home/Reseaux";
+import Contact from "./components/home/Contact";
 
 export default function Home() {
   return (
