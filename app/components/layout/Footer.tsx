@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-col justify-center items-center bg-gray-900 text-white py-4 px-8 min-h-120 relative">
+      <footer className="flex flex-col justify-center items-center bg-[#151515] text-white py-4 px-8 min-h-100 relative">
         <div
           className="absolute inset-0 flex flex-col justify-center items-center"
           style={{
@@ -32,9 +32,6 @@ export default function Footer() {
         />
       </footer>
       <div className="bg-[#229B3C] py-24 px-20">
-        {/* <p className="text-center text-sm text-gray-500 py-2">
-          LES FOUS DE SIN-DNI
-        </p> */}
         <Image
           src="/fous_text.svg"
           alt="Logo du club"

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Container from "../../shared/Container";
+import Container from "../shared/Container";
 
 export default function Contact() {
   return (

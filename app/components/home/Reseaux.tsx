@@ -1,4 +1,4 @@
-import Container from "../../shared/Container";
+import Container from "../shared/Container";
 import Image from "next/image";
 
 export default function Reseaux() {

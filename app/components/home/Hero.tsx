@@ -1,4 +1,4 @@
-import Background from "../../Background";
+import Background from "./Background";
 import RotatingWords from "./RotatingWords";
 
 export default function Hero() {
