@@ -8,12 +8,12 @@ export default function HeroCours() {
         backgroundSize: "cover",
       }}
     >
-      <div className="bg-gray-50/30 py-6 rounded-xl w-3/5 backdrop-blur-md">
+      <div className="bg-gray-50/40 py-6 rounded-xl w-3/5 backdrop-blur-md">
         <h1 className="kaisei-opti-regular text-7xl font-bold text-center">
           LES COURS DU CLUB
         </h1>
       </div>
-      <section className="flex flex-col gap-8 text-lg px-12 py-8 bg-[#282828] border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
+      <section className="flex flex-col gap-7 text-lg px-12 py-8 bg-[#282828]/60  backdrop-blur-md shadow-2xl border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
         <h2 className="kaisei-opti-regular text-5xl">Cours d'échecs Adultes</h2>
 
         <p>
