@@ -4,7 +4,7 @@ import Partenaire from "./components/Partenaire";
 
 export default function About() {
   return (
-    <div className="pt-28">
+    <div>
       <HeroAbout />
 
       <Partenaire />
