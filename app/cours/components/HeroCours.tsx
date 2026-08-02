@@ -1,7 +1,7 @@
 export default function HeroCours() {
   return (
     <div
-      className="min-h-screen flex flex-col gap-10 justify-center items-center"
+      className="min-h-screen flex flex-col gap-10 justify-center items-center pt-8"
       style={{
         backgroundImage: "url('/cours_bg.png')",
         backgroundRepeat: "no-repeat",
@@ -13,7 +13,7 @@ export default function HeroCours() {
           LES COURS DU CLUB
         </h1>
       </div>
-      <section className="flex flex-col gap-8 text-lg px-12 py-10 bg-[#282828] border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
+      <section className="flex flex-col gap-8 text-lg px-12 py-8 bg-[#282828] border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
         <h2 className="kaisei-opti-regular text-5xl">Cours d'échecs Adultes</h2>
 
         <p>

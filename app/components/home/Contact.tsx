@@ -65,7 +65,7 @@ export default function Contact() {
         </div>
 
         <Image
-          src="/illustration_2.png"
+          src="/contact.png"
           alt="Contact"
           width={800}
           height={800}
