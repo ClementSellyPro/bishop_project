@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Les fous de Sin-Dni | Club d'échecs Saint-Denis",
     description:
       "Club d'échecs de Saint-Denis de la Réunion, cours d'échces, tournois et événements pour tous les niveaux.",
-    url: "https://lesfousdesindni.com/",
+    url: "https://www.lesfous-sindni.re/",
     siteName: "Les fous de Sin-Dni | Club d'échecs Saint-Denis",
     images: [
       {

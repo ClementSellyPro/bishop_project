@@ -6,7 +6,7 @@ export default function Nav() {
       <ul className="flex h-10 px-4">
         <NavItem href="/" label="Accueil" />
         <NavItem href="/cours" label="Cours" />
-        <NavItem href="/actualité" label="Actualités" />
+        <NavItem href="/evenements" label="Événements" />
         <NavItem href="/contact" label="Contact" />
         <NavItem href="/about" label="À propos" />
       </ul>

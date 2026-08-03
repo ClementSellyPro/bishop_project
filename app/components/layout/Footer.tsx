@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="flex flex-col justify-center items-center bg-[#151515] text-white py-4 px-8 min-h-100 relative">
         <div
-          className="absolute inset-0 flex flex-col justify-center items-center"
+          className="absolute inset-0 flex flex-col justify-center items-center pt-12"
           style={{
             backgroundImage: "url('/footer_bg.svg')",
             backgroundRepeat: "no-repeat",

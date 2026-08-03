@@ -14,7 +14,7 @@ export default function HeroCours() {
         </h1>
       </div>
       <section className="flex flex-col gap-7 text-lg px-12 py-8 bg-[#282828]/60  backdrop-blur-md shadow-2xl border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
-        <h2 className="kaisei-opti-regular text-5xl">Cours d'échecs Adultes</h2>
+        <h2 className="kaisei-opti-regular text-5xl">Cours d'échecs adultes</h2>
 
         <p>
           Le club propose des cours adultes, pour tout les niveaux, les

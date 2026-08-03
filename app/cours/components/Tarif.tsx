@@ -13,14 +13,14 @@ export default function Tarif() {
           <p>
             <span className="text-3xl">Adultes plein tarif :</span>{" "}
             <span className="text-[#305BD4] text-4xl font-bold">
-              15€ (4,50€/Séance)
+              55€ (4,50€/Séance)
             </span>
           </p>
 
           <p>
             <span className="text-3xl">Adultes tarif solidaire* :</span>{" "}
             <span className="text-[#305BD4] text-4xl font-bold">
-              15€ (4,50€/Séance)
+              40€ (3,30€/Séance)
             </span>
           </p>
 
@@ -40,6 +40,7 @@ export default function Tarif() {
             </span>
           </p>
         </section>
+
         <p className="text-sm mt-4">
           *Etudiant-e-s, bénéficiaires du RSA, ASS, CCAS, AAH, Demandeurs
           d'emplois, réfugié-e-s, <br /> 2e membre de la famille
