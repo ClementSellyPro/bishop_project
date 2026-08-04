@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     "Club d'échecs de Saint-Denis de la Réunion, cours d'échces, tournois et événements pour tous les niveaux.",
   keywords: [
     "club d'échecs",
-    "Saint-Denis",
-    "club echecs saint denis",
+    "Saint-Denis de la Réunion",
+    "club echecs saint denis reunion",
     "cours d'échecs",
     "tournois d'échecs",
     "événements d'échecs",
