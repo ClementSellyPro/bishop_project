@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-col justify-center items-center bg-[#151515] text-white py-4 px-8 min-h-100 relative">
+      <footer className="flex flex-col justify-center items-center bg-[#151515] text-white py-4 px-8 min-h-50 lg:min-h-100 relative">
         <div
-          className="absolute inset-0 flex flex-col justify-center items-center pt-12"
+          className="absolute inset-0 flex flex-col justify-center items-center pt-4 lg:pt-12"
           style={{
             backgroundImage: "url('/footer_bg.svg')",
             backgroundRepeat: "no-repeat",
@@ -13,23 +13,23 @@ export default function Footer() {
             backgroundSize: "cover",
           }}
         >
-          <div className="flex gap-10 items-center mb-4">
+          <div className="flex gap-4 lg:gap-10 items-center mb-4">
             <Image
               src="/ffe.jpg"
               alt="Logo FFE"
-              className="rounded-md"
+              className="rounded-md w-18 lg:w-33"
               width={150}
               height={150}
             />
             <Image
               src="/lrje.png"
               alt="Logo LRJE"
-              className="rounded-md"
+              className="rounded-md w-18 lg:w-33"
               width={150}
               height={150}
             />
           </div>
-          <p>
+          <p className="text-center text-xs lg:text-lg">
             &copy; {new Date().getFullYear()} Les fous de Sin-Dni. Tous droits
             réservés.
           </p>
@@ -43,7 +43,7 @@ export default function Footer() {
           className="absolute top-0 left-0 w-full"
         />
       </footer>
-      <div className="bg-[#229B3C] py-24 px-20">
+      <div className="bg-[#229B3C] py-8 lg:py-24 px-4 lg:px-20">
         <Image
           src="/fous_text.svg"
           alt="Logo du club"

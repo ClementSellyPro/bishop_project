@@ -24,21 +24,22 @@ export default function Container({
 
   return (
     <div
-      className={`h-screen flex items-center justify-center relative ${variant.section}`}
+      className={`h-[70vh] lg:h-screen flex items-center justify-center relative pt-20 lg:pt-0 ${variant.section}`}
     >
       {/* Echiquier banner on the top */}
-      <div className="absolute top-0 inset-x-0 h-24">
+      <div className="absolute top-0 inset-x-0 h-16 sm:h-20 lg:h-24">
         <Image
           src={`/${variant.banner}`}
           alt=""
           fill
+          sizes="100vw"
           className="object-cover"
         />
       </div>
 
       {/* content */}
       <div
-        className={`${variant.box} flex flex-col border-2 rounded-4xl p-4 w-8/12 md:w-6/12 lg:w-9/12 h-10/12 md:h-6/12 lg:h-8/12`}
+        className={`${variant.box} flex flex-col border-2 rounded-4xl p-0 pb-8 lg:p-4 w-10/12 md:w-6/12 lg:w-9/12 h-10/12 md:h-6/12 lg:h-8/12`}
       >
         {children}
       </div>
