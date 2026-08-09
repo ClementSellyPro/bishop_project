@@ -78,7 +78,7 @@ export default function Contact() {
           alt="Contact"
           width={800}
           height={800}
-          className="hidden lg:block absolute -right-150 top-20"
+          className="block lg:absolute -right-150 top-20"
         />
       </div>
     </Container>

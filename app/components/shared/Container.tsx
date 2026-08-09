@@ -24,7 +24,7 @@ export default function Container({
 
   return (
     <div
-      className={`h-[70vh] lg:h-screen flex items-center justify-center relative pt-20 lg:pt-0 ${variant.section}`}
+      className={`min-h-[70vh] lg:h-screen flex items-center justify-center relative pb-8 pt-20 lg:pt-0 ${variant.section}`}
     >
       {/* Echiquier banner on the top */}
       <div className="absolute top-0 inset-x-0 h-16 sm:h-20 lg:h-24">
