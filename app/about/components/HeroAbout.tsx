@@ -8,11 +8,11 @@ export default function HeroAbout() {
         backgroundSize: "cover",
       }}
     >
-      <div className="bg-gray-50/30 px-10 py-30 rounded-xl w-3/5 backdrop-blur-md">
-        <h1 className="kaisei-opti-regular text-7xl font-bold mb-10 text-center">
+      <div className="bg-gray-50/30 px-4 lg:px-10 py-10 lg:py-30 rounded-xl w-10/12 lg:w-3/5 backdrop-blur-md">
+        <h1 className="kaisei-opti-regular text-4xl lg:text-7xl font-bold mb-6 lg:mb-10 text-center">
           À PROPOS
         </h1>
-        <p className="text-center text-xl">
+        <p className="text-center text-md lg:text-xl">
           Le club a été créé en 2025 par quelques passionnés du jeu d'échecs.{" "}
           <br />
           L'objectif est de créer un espace bienveillant et de transmettre la

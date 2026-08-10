@@ -5,11 +5,11 @@ export default function Membres() {
   return (
     <Container>
       <div className="py-8">
-        <h2 className="kaisei-opti-regular text-6xl font-semibold mb-14 text-center">
+        <h2 className="kaisei-opti-regular text-3xl lg:text-6xl font-semibold mb-14 text-center">
           L'équipe dirigeante
         </h2>
 
-        <div className="flex justify-around">
+        <div className="flex justify-around flex-col lg:flex-row gap-10 lg:gap-0">
           <div className="flex flex-col justify-center items-center">
             <Image
               src="/membre0.png"
@@ -25,7 +25,7 @@ export default function Membres() {
                 height={200}
               />
               <span className="absolute top-1/2 left-20 text-xl font-semibold">
-                fljqsdkfj LSQKDFJQS
+                fljqsdkfj LSQKDFJ
               </span>
             </div>
             <span className="kaisei-opti-regular text-xl">Président</span>
