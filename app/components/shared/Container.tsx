@@ -39,7 +39,7 @@ export default function Container({
 
       {/* content */}
       <div
-        className={`${variant.box} flex flex-col border-2 rounded-4xl p-0 pb-8 lg:p-4 w-10/12 md:w-6/12 lg:w-9/12 h-10/12 md:h-6/12 lg:h-8/12`}
+        className={`${variant.box} flex flex-col border-2 rounded-2xl lg:rounded-4xl p-0 pb-8 lg:p-4 w-11/12 md:w-6/12 lg:w-9/12 h-10/12 md:h-6/12 lg:h-8/12`}
       >
         {children}
       </div>

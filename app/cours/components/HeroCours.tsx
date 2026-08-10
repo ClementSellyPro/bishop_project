@@ -1,20 +1,22 @@
 export default function HeroCours() {
   return (
     <div
-      className="min-h-screen flex flex-col gap-10 justify-center items-center pt-8"
+      className="min-h-screen flex flex-col gap-10 justify-center items-center pt-28 lg:pt-8 pb-8"
       style={{
         backgroundImage: "url('/cours_bg.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
     >
-      <div className="bg-gray-50/40 py-6 rounded-xl w-3/5 backdrop-blur-md">
-        <h1 className="kaisei-opti-regular text-7xl font-bold text-center">
+      <div className="bg-gray-50/40 py-6 rounded-none lg:rounded-xl w-full lg:w-3/5 backdrop-blur-md">
+        <h1 className="kaisei-opti-regular text-3xl lg:text-7xl font-bold text-center">
           LES COURS DU CLUB
         </h1>
       </div>
-      <section className="flex flex-col gap-7 text-lg px-12 py-8 bg-[#282828]/60  backdrop-blur-md shadow-2xl border-[#229B3C] border-2 text-[#F2F2F2] rounded-xl w-3/5">
-        <h2 className="kaisei-opti-regular text-5xl">Cours d'échecs adultes</h2>
+      <section className="flex flex-col gap-7 text-md lg:text-lg px-4 lg:px-12 py-8 bg-[#282828]/60  backdrop-blur-md shadow-2xl border-[#229B3C] border-2 text-[#F2F2F2] rounded-2xl lg:rounded-4xl w-11/12 lg:w-3/5">
+        <h2 className="kaisei-opti-regular text-3xl lg:text-5xl">
+          Cours d'échecs adultes
+        </h2>
 
         <p>
           Le club propose des cours adultes, pour tout les niveaux, les
