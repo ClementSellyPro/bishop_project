@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Partenaire() {
   return (
     <Container theme="dark">
-      <div className="m-3 lg:m-0 px-0 lg:px-4 py-4 lg:py-10 h-full bg-[#229b3c] rounded-2xl">
+      <div className="m-3 lg:m-0 px-0 lg:px-4 py-4 lg:py-10 h-full bg-[#229b3c] rounded-xl lg:rounded-2xl">
         <h2 className="kaisei-opti-regular text-3xl lg:text-6xl font-semibold mb-10 lg:mb-14 text-center">
           Nos Partenaires
         </h2>

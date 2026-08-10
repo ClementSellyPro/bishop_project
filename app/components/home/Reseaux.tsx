@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Reseaux() {
   return (
     <Container theme="dark">
-      <div className="lg:w-full py-10 px-14 w-7/12 relative">
-        <h2 className="kaisei-opti-regular text-6xl font-semibold text-center">
+      <div className="py-10 px-6 lg:px-14 w-full relative">
+        <h2 className="kaisei-opti-regular text-3xl lg:text-6xl font-semibold text-center">
           Retrouvez nous sur nos réseaux
         </h2>
-        <div className="flex justify-end gap-20 mt-18 mr-10">
+        <div className="flex flex-col lg:flex-row justify-end gap-10 lg:gap-20 px-2 lg:px-0 mt-10 lg:mt-18 mr-10">
           <a
             href="https://www.facebook.com/people/Les-Fous-Sin-Dni/61583722233152/"
             target="_blank"
@@ -27,7 +27,7 @@ export default function Reseaux() {
           alt="Réseaux"
           width={750}
           height={750}
-          className="absolute -left-60 top-5"
+          className="block lg:absolute -left-60 top-5"
         />
       </div>
     </Container>

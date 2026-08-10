@@ -4,11 +4,11 @@ import Container from "../shared/Container";
 export default function Presentation() {
   return (
     <Container theme="light">
-      <div className="ml-20 mt-14 w-7/12 relative">
-        <h2 className="kaisei-opti-regular text-7xl font-semibold mb-12">
+      <div className="ml-6 lg:ml-20 mt-7 lg:mt-14 w-10/12 lg:w-7/12 relative">
+        <h2 className="kaisei-opti-regular text-4xl lg:text-7xl font-semibold mb-6 lg:mb-12">
           PRESENTATION
         </h2>
-        <section className="flex flex-col gap-4 text-xl tracking-wide">
+        <section className="flex flex-col gap-4 text-md lg:text-xl tracking-wide">
           <p>
             Nous proposons des cours d'initiation, de perfectionnement ouvert à
             tous, enfants et adultes 🧒👧
@@ -31,7 +31,7 @@ export default function Presentation() {
           alt="Présentation"
           width={800}
           height={800}
-          className="absolute -right-170 -top-30"
+          className="block lg:absolute -right-170 -top-30"
         />
       </div>
     </Container>
