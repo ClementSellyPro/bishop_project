@@ -30,7 +30,9 @@ export default function RotatingWords({
 }: RotatingWordsProps) {
   const [index, setIndex] = useState(words.length);
   const [withTransition, setWithTransition] = useState(true);
-  const resetTimeout = useRef<ReturnType<typeof setTimeout>>();
+  const resetTimeout = useRef<ReturnType<typeof setTimeout> | undefined>(
+    undefined,
+  );
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -79,8 +81,8 @@ export default function RotatingWords({
         {loopedWords.map((word, i) => (
           <div
             key={i}
-            className={`text-4xl tracking-[2px] text-white transition-all 
-              ${i === index ? "text-5xl" : null}
+            className={`text-2xl lg:text-4xl tracking-[2px] text-white transition-all 
+              ${i === index ? "text-3xl lg:text-5xl" : null}
               `}
             style={{ height: itemHeight }}
           >
